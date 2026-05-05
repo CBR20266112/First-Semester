@@ -1,4 +1,4 @@
-// ASCII code test.
+// ASCII CODE test.
 #include <stdio.h>
 int main() {
 
