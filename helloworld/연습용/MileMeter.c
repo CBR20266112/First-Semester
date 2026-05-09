@@ -1,12 +1,12 @@
-// 마일을 미터로 환산?
+// ?????? ????? ????
 #include <stdio.h>
 int main(void) {
     int mile; float meter;
-    printf("마일을 입력하시요: ");
+    printf("몇 마일이요?: ");
     scanf("%d", &mile);
     
     meter = 1609*mile;
-    printf("%f", meter);
+    printf("아, %d마일은 %f메다요.", mile, meter);
 
     return 0;
 
