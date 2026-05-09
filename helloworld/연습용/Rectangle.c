@@ -8,7 +8,7 @@ int main(void) {
     scanf("%d %d", &w, &h);
 
     area = w*h; perimeter = 2*(w+h);
-    printf("넓데데: %d, 뚤레뚤레: %d", &area, &perimeter);
+    printf("넓데데: %d, 뚤레뚤레: %d", area, perimeter);
 
     return 0;
 }
