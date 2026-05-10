@@ -9,7 +9,10 @@ int main(void)
     time = distance / light_speed;
     printf("빛의 속도는 %lfkm/s\n", light_speed);
     printf("태양과 지구의 거리는 %lfkm\n", distance);
-    printf("태양의 빛이 지구에 도달하기까지 %lf초", time);
+    printf("태양의 빛이 지구에 도달하기까지 %lf초\n", time);
+    int minute;
+    minute = time / 60;
+    printf("도전문제에선 분단위로 출력하라네요?: %d", minute);
 
     return 0;
 }
