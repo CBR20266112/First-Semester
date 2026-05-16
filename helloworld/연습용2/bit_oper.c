@@ -7,6 +7,7 @@ int main(void) {
     printf("XOR: %08x\n", 0X9 ^ 0XA);
     printf("<<: %08x\n", 0X4 << 1);
     printf(">>: %08x", 0X4 >> 1);
+    printf("\n\nAND: %08X\n", 0X9 & 0X2);
 
     return 0;
 }
