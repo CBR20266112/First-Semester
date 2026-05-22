@@ -1,0 +1,14 @@
+# Ignore all root-level entries
+/*
+
+# Keep the root files/folders we want
+!/.gitignore
+!/README.md
+!/readme.md
+!/helloworld
+!/first-contributions
+!/VisualStudy_refer
+
+# Ignore editor and build artifacts
+/.vscode/
+/mingw64/
